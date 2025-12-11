@@ -1,0 +1,22 @@
+INSERT INTO visits (patient_id, visit_date, reason, provider)
+VALUES
+(1, '2024-01-03', 'Routine check', 'Nurse Kelly'),
+(1, '2024-02-10', 'Follow-up on medication', 'Nurse Kelly'),
+(2, '2024-01-15', 'Assessment', 'Dr. Patel'),
+(2, '2024-02-20', 'Pain complaint', 'Dr. Patel'),
+(3, '2024-01-12', 'Routine check', 'Nurse Hill'),
+(3, '2024-03-01', 'Wound care', 'Nurse Hill'),
+(4, '2024-01-25', 'Medication review', 'Dr. Smith'),
+(4, '2024-03-18', 'Follow-up on labs', 'Dr. Smith'),
+(5, '2024-02-05', 'Behavioral change', 'Nurse Lee'),
+(5, '2024-03-10', 'Fall follow-up', 'Nurse Lee'),
+(6, '2024-02-14', 'Routine check', 'Nurse Brown'),
+(6, '2024-03-01', 'Care plan update', 'Nurse Brown'),
+(7, '2024-01-30', 'Assessment', 'Dr. Davis'),
+(7, '2024-03-05', 'Mobility decline', 'Dr. Davis'),
+(8, '2024-02-02', 'Wound care', 'Nurse Adams'),
+(8, '2024-03-12', 'Pain complaint', 'Nurse Adams'),
+(9, '2024-01-11', 'Behavioral change', 'Nurse White'),
+(9, '2024-03-15', 'Medication review', 'Nurse White'),
+(10, '2024-02-07', 'Routine check', 'Dr. Lee'),
+(10, '2024-03-20', 'Lab follow-up', 'Dr. Lee');

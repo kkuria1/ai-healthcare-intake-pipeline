@@ -1,0 +1,22 @@
+INSERT INTO claims (patient_id, service_date, amount, status, payer)
+VALUES
+(1, '2024-01-03', 250.00, 'Paid', 'Aetna'),
+(1, '2024-02-10', 180.00, 'Pending', 'Aetna'),
+(2, '2024-01-15', 320.00, 'Denied', 'Blue Cross'),
+(2, '2024-02-20', 150.00, 'Paid', 'Blue Cross'),
+(3, '2024-01-12', 200.00, 'Paid', 'UnitedHealthcare'),
+(3, '2024-03-01', 400.00, 'Pending', 'UnitedHealthcare'),
+(4, '2024-01-25', 275.00, 'Paid', 'Kaiser'),
+(4, '2024-03-18', 500.00, 'Denied', 'Kaiser'),
+(5, '2024-02-05', 220.00, 'Paid', 'Medicare'),
+(5, '2024-03-10', 310.00, 'Pending', 'Medicare'),
+(6, '2024-02-14', 190.00, 'Paid', 'Aetna'),
+(6, '2024-03-01', 260.00, 'Denied', 'Aetna'),
+(7, '2024-01-30', 330.00, 'Paid', 'Blue Cross'),
+(7, '2024-03-05', 410.00, 'Pending', 'Blue Cross'),
+(8, '2024-02-02', 280.00, 'Paid', 'Aetna'),
+(8, '2024-03-12', 360.00, 'Denied', 'Aetna'),
+(9, '2024-01-11', 240.00, 'Paid', 'UnitedHealthcare'),
+(9, '2024-03-15', 390.00, 'Pending', 'UnitedHealthcare'),
+(10, '2024-02-07', 210.00, 'Paid', 'Medicare'),
+(10, '2024-03-20', 450.00, 'Denied', 'Medicare');
