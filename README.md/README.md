@@ -1,5 +1,3 @@
-Absolutely — here is your cleaned, tightened, and fully polished README.md, ready for copy–paste into your 
-
 ⸻
  AI-Driven Healthcare Intake Automation Pipeline
 
