@@ -1,2 +1,19 @@
-.env
-.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.env/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# LLM cache (optional)
+data/llm_cache.json
+
+# Large outputs (optional)
+data/*.csv
+

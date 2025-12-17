@@ -18,6 +18,17 @@ It processes intake notes and insurance information through a full data workflow
 	6.	Persist enriched data back into the database
 	7.	Analyze operational metrics and generate case-study samples
 
+## ⭐ Project Highlights (What this demonstrates)
+
+- Built an end-to-end healthcare intake pipeline: cleaning → validation → routing → AI enrichment → writeback → analytics
+- Integrated a local LLM (Llama 3 via Ollama) to generate summaries and structured extractions (risk + insurance issues)
+- Implemented hybrid routing logic (rules + AI signals) with persisted v2 outputs in SQLite
+- Added human-in-the-loop evaluation:
+  - labeled ground truth set
+  - confusion table scoring
+  - severity-weighted scoring to reflect healthcare risk
+- Delivered a Streamlit triage dashboard for filtering by queue, risk, and insurance issue type
+
 The goal is to demonstrate real-world AI Ops, Product Ops, and Healthcare Data Engineering capability.
 
 ⸻
@@ -197,14 +208,14 @@ pip install -r requirements.txt
 
 ⸻
 
-🔮 Next Steps (Planned Enhancements)
-	•	Streamlit dashboard for triage & monitoring
-	•	Multi-label risk classification using Llama 3
-	•	Prior authorization outcome prediction
-	•	Confidence scoring + uncertainty detection
-	•	FastAPI wrapper for real-time intake processing
-	•	RAG using historical intake to enhance LLM summaries
-	•	Data drift monitoring & alerting
+## 🔧 What I’d improve next (Production hardening)
+
+- Add automated tests for routing rules + extraction parsing
+- Add batch processing + concurrency controls for LLM calls
+- Add monitoring metrics (drift, cache hit rate, latency)
+- Add role-based access and audit logging for clinical workflows
+- Deploy as a service (FastAPI) with a hosted dashboard
+
 
 ⸻
 
