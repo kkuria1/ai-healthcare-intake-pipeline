@@ -1,3 +1,4 @@
+
 ⸻
  AI-Driven Healthcare Intake Automation Pipeline
 
@@ -179,6 +180,20 @@ python3 python/analytics_intake.py
 
 python3 python/case_study_intake_ai.py
 
+## Quickstart (Local)
+
+### 1) Install dependencies
+```bash
+pip install -r requirements.txt
+
+
+## 📸 Demo Screenshots
+
+### Worklist View
+![Worklist](screenshots/dashboard_worklist.png)
+
+### Case Viewer
+![Case Viewer](screenshots/dashboard_case_view.png)
 
 ⸻
 

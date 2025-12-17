@@ -1,0 +1,8 @@
+altair==5.5.0
+numpy==1.26.4
+numpydoc==1.9.0
+pandas==2.3.3
+protobuf==4.25.5
+pyarrow==13.0.0
+rich==13.9.4
+streamlit==1.40.1
